@@ -20,43 +20,36 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
 
 - To register a user: `localhost:5000/register` </br>
     <strong>JSON:</strong>
-    </br>
-    <code>
-    {</br>
-        &nbsp; "username": kushalbkusram,</br>
-        &nbsp; "password": 123xyz
-        </br>
+    ```json
+    {
+        "username": "kushalbkusram",
+        "password": "123xyz"
     }
-    </code>
-    </br>
+    ```
     <strong>Expected Outcome:</strong>
     ![Register Result](images/register-result.jpg)
 
 - To store a sentence: `localhost:5000/store` </br>
     <strong>JSON:</strong>
-    </br>
-    <code>
-    {</br>
-        &nbsp; "username": kushalbkusram,</br>
-        &nbsp; "password": 123xyz,</br>
-        &nbsp; "sentence": "Hello World! This is a sample sentence."</br>
+    ```json
+    {
+        "username": "kushalbkusram",
+        "password": "123xyz",
+        "sentence": "Hello World! This is a sample sentence."
     }
-    </code>
-    </br>
+    ```
     <strong>Expected Outcome:</strong>
     ![Store Result](images/store-result.jpg)
 
 - To retrieve a sentence: `localhost:5000/get` </br>
     <strong>JSON:</strong>
     </br>
-    <code>
-    {</br>
-        &nbsp; "username": kushalbkusram,</br>
-        &nbsp; "password": 123xyz
-        </br>
+    ```json
+    {
+        "username": "kushalbkusram",
+        "password": "123xyz"
     }
-    </code>
-    </br>
+    ```
     <strong>Expected Outcome:</strong>
     ![Get Result](images/get-result.jpg)
 
