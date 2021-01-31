@@ -22,7 +22,7 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
     JSON:
     </br><code>
     {
-        "username":kushalbkusram,
+        "username": kushalbkusram,
         "password": 123xyz
     }
     </code>
@@ -31,7 +31,7 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
     JSON:
     </br><code>
     {
-        "username":kushalbkusram,
+        "username": kushalbkusram,
         "password": 123xyz,
         "sentence": "Hello World! This is a sample sentence."
     }
@@ -41,7 +41,7 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
     JSON:
     </br><code>
     {
-        "username":kushalbkusram,
+        "username": kushalbkusram,
         "password": 123xyz
     }
     </code>
