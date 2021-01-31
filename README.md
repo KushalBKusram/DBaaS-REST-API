@@ -19,39 +19,44 @@ A database initialized using MongoDB with the objective to store username, encry
 You may use a tool such as [Postman](https://www.postman.com/downloads/) to test the API with the following REST calls. 
 
 - To register a user: `localhost:5000/register` </br>
-    JSON:
-    </br><code>
-    {
-        "username": kushalbkusram,
-        "password": 123xyz
+    <strong>JSON:</strong>
+    </br>
+    <code>
+    {</br>
+        &nbsp; "username": kushalbkusram,</br>
+        &nbsp; "password": 123xyz
+        </br>
     }
     </code>
     </br>
-    Expected Outcome:
+    <strong>Expected Outcome:</strong>
     ![Register Result](images/register-result.jpg)
 
 - To store a sentence: `localhost:5000/store` </br>
-    JSON:
-    </br><code>
-    {
-        "username": kushalbkusram,
-        "password": 123xyz,
-        "sentence": "Hello World! This is a sample sentence."
+    <strong>JSON:</strong>
+    </br>
+    <code>
+    {</br>
+        &nbsp; "username": kushalbkusram,</br>
+        &nbsp; "password": 123xyz,</br>
+        &nbsp; "sentence": "Hello World! This is a sample sentence."</br>
     }
     </code>
     </br>
-    Expected Outcome:
+    <strong>Expected Outcome:</strong>
     ![Store Result](images/store-result.jpg)
 
 - To retrieve a sentence: `localhost:5000/get` </br>
-    JSON:
-    </br><code>
-    {
-        "username": kushalbkusram,
-        "password": 123xyz
+    <strong>JSON:</strong>
+    </br>
+    <code>
+    {</br>
+        &nbsp; "username": kushalbkusram,</br>
+        &nbsp; "password": 123xyz
+        </br>
     }
     </code>
     </br>
-    Expected Outcome:
+    <strong>Expected Outcome:</strong>
     ![Get Result](images/get-result.jpg)
 
