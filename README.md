@@ -26,6 +26,9 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
         "password": 123xyz
     }
     </code>
+    </br>
+    Expected Outcome:
+    ![Register Result](images/register-result.jpg)
 
 - To store a sentence: `localhost:5000/store` </br>
     JSON:
@@ -36,6 +39,9 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
         "sentence": "Hello World! This is a sample sentence."
     }
     </code>
+    </br>
+    Expected Outcome:
+    ![Store Result](images/store-result.jpg)
 
 - To retrieve a sentence: `localhost:5000/get` </br>
     JSON:
@@ -45,5 +51,7 @@ You may use a tool such as [Postman](https://www.postman.com/downloads/) to test
         "password": 123xyz
     }
     </code>
-
+    </br>
+    Expected Outcome:
+    ![Get Result](images/get-result.jpg)
 
